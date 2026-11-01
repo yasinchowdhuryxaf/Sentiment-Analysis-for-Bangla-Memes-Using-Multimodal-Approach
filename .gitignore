@@ -218,3 +218,51 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Public portfolio release rules
+# Original datasets
+data/
+dataset/
+original_images/
+private_data/
+annotations/
+
+# Excel and CSV research files
+*.xlsx
+*.xls
+*.csv
+
+# Explicit public release approved by the repository owner
+!sample_data/original/MEME_DATA_Excel.xlsx
+!results/model_comparison.csv
+
+# Model weights and serialized models
+*.h5
+*.keras
+*.pth
+*.pt
+*.ckpt
+*.joblib
+*.pkl
+*.npy
+*.npz
+checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Private experiment notebooks, thesis exports, and local artifacts
+BanglishBERT*.ipynb
+Sentiment*.ipynb
+*.pdf
+local_outputs/

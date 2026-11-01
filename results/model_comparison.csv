@@ -1,0 +1,10 @@
+model,group,reported_accuracy,source_table,source_printed_page,provenance
+SVM,Text,0.6,Table 4.1,30,Thesis-reported; not independently rerun
+Logistic Regression,Text,0.58,Table 4.2,32,Thesis-reported; not independently rerun
+Random Forest,Text,0.6,Table 4.3,34,Thesis-reported; not independently rerun
+BanglishBERT (thesis label),Text,0.63,Table 4.4,36,Thesis-reported; not independently rerun
+ResNet50,Image,0.59,Table 4.5,38,Thesis-reported; not independently rerun
+VGG19,Image,0.62,Table 4.6,40,Thesis-reported; not independently rerun
+BERT + VGG19 / OR fusion,OR fusion,0.67,Table 4.7,42,Thesis-reported; not independently rerun
+BERT + ResNet50 / learned fusion,Learned fusion,0.82,Table 4.8,43,Thesis-reported; not independently rerun
+BERT + VGG19 / learned fusion,Learned fusion,0.82,Table 4.8,43,Thesis-reported; not independently rerun

@@ -1,0 +1,66 @@
+[
+  {
+    "Image_ID": "Synthetic-01",
+    "Caption": "Ajker din ta sundor",
+    "Label": "Non Offensive",
+    "Image_Path": "synthetic_images/sample_01.png",
+    "Demo_Text_Pred": 0,
+    "Demo_Image_Pred": 0
+  },
+  {
+    "Image_ID": "Synthetic-02",
+    "Caption": "Bondhuder sathe moja",
+    "Label": "Non Offensive",
+    "Image_Path": "synthetic_images/sample_02.png",
+    "Demo_Text_Pred": 0,
+    "Demo_Image_Pred": 1
+  },
+  {
+    "Image_ID": "Synthetic-03",
+    "Caption": "A fictional rude insult",
+    "Label": "Offensive",
+    "Image_Path": "synthetic_images/sample_03.png",
+    "Demo_Text_Pred": 1,
+    "Demo_Image_Pred": 0
+  },
+  {
+    "Image_ID": "Synthetic-04",
+    "Caption": "A made-up hostile message",
+    "Label": "Offensive",
+    "Image_Path": "synthetic_images/sample_04.png",
+    "Demo_Text_Pred": 0,
+    "Demo_Image_Pred": 1
+  },
+  {
+    "Image_ID": "Synthetic-05",
+    "Caption": "Porashona cholche",
+    "Label": "Non Offensive",
+    "Image_Path": "synthetic_images/sample_05.png",
+    "Demo_Text_Pred": 0,
+    "Demo_Image_Pred": 0
+  },
+  {
+    "Image_ID": "Synthetic-06",
+    "Caption": "A fictional unkind remark",
+    "Label": "Offensive",
+    "Image_Path": "synthetic_images/sample_06.png",
+    "Demo_Text_Pred": 1,
+    "Demo_Image_Pred": 0
+  },
+  {
+    "Image_ID": "Synthetic-07",
+    "Caption": "Shuvo shokal bondhu",
+    "Label": "Non Offensive",
+    "Image_Path": "synthetic_images/sample_07.png",
+    "Demo_Text_Pred": 0,
+    "Demo_Image_Pred": 0
+  },
+  {
+    "Image_ID": "Synthetic-08",
+    "Caption": "A made-up offensive example",
+    "Label": "Offensive",
+    "Image_Path": "synthetic_images/sample_08.png",
+    "Demo_Text_Pred": 1,
+    "Demo_Image_Pred": 1
+  }
+]
